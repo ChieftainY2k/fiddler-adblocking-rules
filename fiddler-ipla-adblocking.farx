@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoResponder LastSave="2017-09-21T16:14:07.6233952+02:00" FiddlerVersion="4.6.20172.31233">
+  <State Enabled="true" Fallthrough="true" UseLatency="false">
+    <ResponseRule Match="regex:\://([a-z0-9-]+\.)?stat24.com.*" Action="404_Plain.dat" Enabled="true" />
+    <ResponseRule Match="regex:\://([a-z0-9-]+\.)?hit.gemius.pl.*" Action="404_Plain.dat" Enabled="true" />
+    <ResponseRule Match="regex:.*ad.xml.*" Action="404_Plain.dat" Enabled="true" />
+  </State>
+</AutoResponder>
